@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} 
+header{
+    width: 100%;
+     line-height: 15vh;
+    background-color:rgb(129, 248, 248);
+}
+h1{
+    text-align: center;
+    color:white;
+    font-size: 1.8rem;
+    font-family: 'Carter One', cursive;
+
+    text-transform: uppercase;
+    letter-spacing:  15px;
+    text-shadow: 0px 10px 5px rgba(219, 15, 15, 0.4);
+ 
+
+}
+section{
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(3, 117, 117);
+} 
+.game{
+    height: 400px;
+    width: 50%;
+    font-family: 'source sans pro',sans-serif;
+    background-color: rgb(130, 169, 169);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+    box-shadow: 0px 10px 6px -2px rgb(21, 18, 18);
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+}
+input{
+    width: 40%;
+    padding:15px 0;
+    border: none;
+    outline: none;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(91, 120, 120);
+    color:white;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+.button{
+    height: 3rem;
+    width: 30%;
+    background-color: rgb(7, 99, 99);
+    color: wheat;
+    text-align: center;
+    border: none;
+    outline:none;
+    border-radius: 10px;
+    font-size: medium;
+    text-transform: uppercase;
+    transition-property: all;
+    transition-duration:0.5s;
+    transition-timing-function: cubic-bezier(0.65,-0.25,0.25.1.95);
+}
+.button:hover,.button:focus,.button:active{
+    letter-spacing: 0.125rem;
+    word-spacing: 0.2rem;
+}
+.hidden{
+    display: none;
+}
